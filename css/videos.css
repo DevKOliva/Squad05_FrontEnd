@@ -10,3 +10,8 @@ body{
     max-width: 80%;
     height: 90px;
 }
+
+.title_Hero{
+    display: flex;
+    justify-content: center;
+}
