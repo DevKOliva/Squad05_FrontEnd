@@ -1,11 +1,16 @@
 /*Fonte DM Sans usada no site*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/*Fonte DM Serif Display*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+/*Fonte Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Corpo principal do site*/
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F5F8FA;
 }
 
 /*Seção Banner(Hero)*/
@@ -18,19 +23,39 @@ body{
 }
 
 /*Conteúdo do hero*/
+
+/*Estilização título principal do banner*/
 .title_Hero{
-    margin: 0 auto 70px auto;
+    margin: 0 auto 40px auto;
 }
 
+.title_font1{
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    color: #0A0430;
+}
+
+.title_font2{
+    font-family: DM Serif Display, sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    color: #0A0430;
+}
+
+/*Estilização Conjunto de imagens e legendas do banner*/
 .imgs_banner {
+    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+    gap: 5px;
 }
 
 .img {
     margin: auto 0;
-    padding: 15px;
+    padding: 10px;
 }
 
 .img1{
@@ -46,15 +71,18 @@ body{
     width: 60%;
 }
 
-.descrição_produto{
+/*Estilização descrição dos serviços do site*/
+.categorias_produto{
     margin: 0 auto;
     max-width: 90%;
     height: 200px;
     display: flex;
 }
 
-.desc{
+.categorias{
     flex: 1;
+    display: flex;
+    flex-direction: column;
     margin-right: 2%;
     border: 1px solid black;
 }
