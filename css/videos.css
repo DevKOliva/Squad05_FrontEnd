@@ -1,17 +1,61 @@
+/*Fonte DM Sans usada no site*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*Corpo principal do site*/
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Seção Banner(Hero)*/
 .hero{
     margin: 20px auto;
-    border: 1px solid black;
-    max-width: 80%;
-    height: 90px;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
+/*Conteúdo do hero*/
 .title_Hero{
-    display: flex;
-    justify-content: center;
+    margin: 0 auto 70px auto;
 }
+
+.imgs_banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.img {
+    margin: auto 0;
+    padding: 15px;
+}
+
+.img1{
+    margin-bottom: 20px;
+}
+
+.legenda_banner{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 25px auto 40px auto;
+    text-align: center;
+    width: 60%;
+}
+
+.descrição_produto{
+    margin: 0 auto;
+    max-width: 90%;
+    height: 200px;
+    display: flex;
+}
+
+.desc{
+    flex: 1;
+    margin-right: 2%;
+    border: 1px solid black;
+}
+
