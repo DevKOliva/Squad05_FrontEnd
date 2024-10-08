@@ -68,6 +68,7 @@ body{
     font-size: 16px;
     margin: 25px auto 40px auto;
     text-align: center;
+    color: #0A0430;
     width: 60%;
 }
 
@@ -83,7 +84,161 @@ body{
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
-    border: 1px solid black;
+    margin-right: 5%;
 }
 
+.icons{
+    height: 50px;
+}
+
+.pencil2{
+    margin-left: 27px;
+}
+
+.pencil1{
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+.label_icons{
+    font-size: 16px;
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    text-align:justify;
+    color: #0A0430;
+}
+
+/*Estilização da seção vídeos educativos do site*/
+.videos_educativos{
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_videos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title_videos1{
+    font-family: DM Sans, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0A0430;
+}
+
+.title_videos2{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #F19436;
+}
+
+.rectangle_VEducativos{
+    width: 60px;
+    height: 8px;
+    margin-top: -30px;
+    background-color: #F19436;
+}
+
+.grupo_videos{
+    margin-top: 40px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+}
+
+.moldura{
+    width: 360px;
+    height: 220px;
+    background-color: #D9D9D9;
+    border-radius: 35px;
+}
+
+.label_moldura{
+    font-family: DM Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*Estilização da seção vídeos tutoriais do site*/
+.videos_tutoriais{
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle_VTutoriais{
+    width: 60px;
+    height: 8px;
+    margin-top: -30px;
+    background-color: #6F24E9;
+}
+
+.title_videosTutoriais{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #6F24E9;
+}
+
+/*Estilização da seção histórias para dormir do site*/
+.historias_dormir{
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle_historias{
+    width: 60px;
+    height: 8px;
+    margin-top: -30px;
+    background-color: #FFC62F;
+}
+
+.title_historias{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #FFC62F;
+}
+
+/*Estilização da seção Aulas interativas do site*/
+.aulas_interativas{
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle_AInterativa{
+    width: 60px;
+    height: 8px;
+    margin-top: -30px;
+    background-color: #E924AE;
+}
+
+.title_AInterativa{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #E924AE;
+}
