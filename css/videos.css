@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5F8FA;
+    background-color: #f5f8fa8a;
 }
 
 /*Seção Banner(Hero)*/
@@ -159,6 +159,9 @@ body{
 }
 
 .moldura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 360px;
     height: 220px;
     background-color: #D9D9D9;
