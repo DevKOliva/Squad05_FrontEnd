@@ -1,8 +1,8 @@
 body{
-    front-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin:0;
     padding:0;
-    background-color:aquamarine;
+    background-color:aliceblue;
 }
 header{
     background-color:aliceblue;
@@ -12,29 +12,3 @@ header{
 
 }
 
-nav ul{
-    list-style: none;
-    padding:0;
-}
-
-nav ul li{
-    display:inline
-    margin-right: 20px;
-}
-nav ul li a{
-    color:antiquewhite
-    text-decoration: none;
-}
-section{
-    padding: 20px;
-    text-align: center;
-}
-footer{
-    background-color: blue;
-    color:aliceblue;
-    padding: 10px;
-    text-align:center;
-    position: fixed;
-    bottom: 0;
-    width:100%;
-}
