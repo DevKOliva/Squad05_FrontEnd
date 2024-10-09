@@ -188,3 +188,71 @@ body{
     font-weight: 500;
     color: #0A0430;
 }
+
+/*Estilização da seção Nossa Equipe do site*/
+.Nossa_Equipe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45rem;
+    background-color: #704EEA;
+    margin: 20px auto;
+}
+
+.title_Nossa_Equipe{
+    border: 1px solid black;
+    margin: 0 auto 40px auto;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.title_font1_NEquipe{
+    font-family: DM Serif Display, sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FFFDF2;
+}
+
+.title_font2_NEquipe{
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FFFDF2;
+}
+
+.Img_Equipe{
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.profile_Equipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 19rem;
+    height:auto;
+}
+
+.title_DescProfile1{
+    margin-bottom: 3rem;
+    font-family: DM Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFDF2;
+}
+
+.title_DescProfile2{
+    margin-top: -2.6rem;
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFDF2;
+}
