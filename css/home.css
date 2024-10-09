@@ -15,7 +15,6 @@ body{
 
 /*Seção Banner(Hero)*/
 .hero_home{
-    border: 1px solid black;
     margin: 20px auto;
     max-width: 90%;
     height: auto;
@@ -50,7 +49,6 @@ body{
 
 /*Estilização Legendas e icones flutuantes do banner HOME*/
 .legenda_banner_home{
-    border: 1px solid black;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -61,6 +59,7 @@ body{
 }
 
 .Btn_Legenda{
+    top: 2rem;
     width: 170px;
     height: 50px;
     border-radius: 50px;
@@ -95,7 +94,7 @@ body{
 .iconPlus1_home{
     position: absolute;
     right: 14rem;
-    top: 40rem;
+    top: 30rem;
 }
 
 .iconPlus2_home{
@@ -105,6 +104,7 @@ body{
 
 .iconStar1_home{
     position: absolute;
+    top: 15rem;
     right: 2rem;
 }
 
@@ -112,4 +112,79 @@ body{
     position: absolute;
     top: 10rem;
     left: 10rem;
+}
+
+/*Estilização da seção Nossas Ferramentas do site*/
+.Nossas_Ferramentas_Home{
+    padding-top: 2rem;
+    margin: 2rem auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_NFerramentas_Home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 25rem;
+}
+
+.title_NFerramentas1{
+    font-family: DM Sans, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0A0430;
+}
+
+.title_NFerramentas2{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: #6F24E9;
+}
+
+.grupo_Ferramentas_Home{
+    margin-top: 40px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.moldura_Ferramenta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    width: 360px;
+    height: 400px;
+    background-color: #704EEA;
+    border-radius: 50px;
+}
+
+.title_MFerramentas1{
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    font-family: DM Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFDF2;
+}
+
+.title_MFerramentas2{
+    font-family: DM Serif Display, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    color: #FFC62F;
+}
+
+.subtitle_MFerramentas{
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0A0430;
 }
