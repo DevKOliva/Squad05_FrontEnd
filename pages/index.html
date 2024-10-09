@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel=”stylesheet” type=”text/css” href=”estilo.css”>
     <meta charset="UTF -8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scales=1.0">
-    <title>Formulário</title>
-    <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+    <title>Fórun</title>
 </head>
 <body>
-    <hi>Fórun</hi>
-    <form>
-        <p>Adicionar um novo tópico <input type="text" name="NewText" id="NewText"></p>
-        <p><input type="submit" value="+"></p>
-    </form>
+    <section class="from-container">
+        <div class="container">
+            <form action="">
+                <hi>Fórun</hi>
+                <div class="input-single">
+                    <input type="text" name="" id="comentário" class="input"
+                    autocomplete="off" required>
+                    <label for="comentário">Adicionar um novo tópico</label>
+                </div>
+                <div class="btn"><input type="submit" value="+"></div>
+            </form>
+        </div>
+    </section>
 </body>
-</html>
