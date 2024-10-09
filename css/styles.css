@@ -1,14 +1,16 @@
+/*Corpo principal do site*/
 body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color:aliceblue;
 }
-header{
-    background-color:aliceblue;
-    color:antiquewhite;
-    padding: 10px 0;
-    text-align:center;
 
+/*Seção Banner(Hero)*/
+.hero{
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
-
