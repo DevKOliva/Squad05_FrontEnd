@@ -51,13 +51,31 @@
   font-weight: 800;
 }
 
-.select {
+.select_home,
+.select_videos,
+.select_forum,
+.select_pais_profs {
   background-image: url("/img/seleção.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   bottom: -28px;
-  left: 312px;
   height: 50px;
   width: 50px;
+}
+
+.select_home {
+  left: 40px;
+}
+
+.select_videos {
+  left: 125px;
+}
+
+.select_forum {
+  left: 205px;
+}
+
+.select_pais_profs {
+  left: 312px;
 }
