@@ -5,10 +5,13 @@
 /*Fonte Montserrat*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: DM Sans, sans-serif;
 }
 
@@ -260,30 +263,35 @@ body {
   border: 1px solid #0000003b;
   border-radius: 50px;
   box-shadow: 0 0 5px #00000033;
+  color: #0a0430;
 
   height: 15rem;
+  width: 100%;
+  padding: 40px;
 }
 
-.titleinput_Forms {
-  height: 7rem;
-  display: flex;
-  align-items: center;
-  padding-left: 3rem;
-}
-
-.text_Input {
-  margin-top: 10px;
+.input_PagForms::placeholder,
+.input_PagForms {
+  font-size: 20px;
+  font-weight: 400;
   font-family: DM Sans, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  color: #d9d9d9;
+}
+
+.input_PagForms::placeholder {
+  color: #bfbfbf;
+}
+
+.form-text-area {
+  position: relative;
 }
 
 .plusForms {
   position: absolute;
-  top: 8.5rem;
-  left: 47rem;
+  top: 165px;
+  left: 1015px;
 
+  cursor: pointer;
+  border: none;
   background-color: #dfc8fe;
   height: 43px;
   width: 43px;
