@@ -267,6 +267,7 @@ body{
     top: 85rem;
     right: 1rem
 }
+/*Estilização da seção Leia Artigos do site*/
 .Leia_artirgos_Home{
     padding: 2rem;
     text-align: l;
@@ -295,3 +296,40 @@ body{
     font-weight: bold;
     color: #333;
 }
+.Plataforma_Videos {
+    background-color:#FFC62F;
+    padding: 80px;
+    border-radius: 40px;
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+.title_PlataformaVideos{
+    color:#333;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.highlight{
+    color:#9147eb;
+    font-weight: bold;
+}
+.Subtitle_PlataformaVideos{
+    font-size: 1rem;
+    color:#333;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #9147eb;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block
+}
+.btn:hover {
+    background-color: #762bcc;
