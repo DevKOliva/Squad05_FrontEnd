@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: DM Sans, sans-serif;
 }
 
 /*Seção Banner(Hero)*/
@@ -173,7 +174,7 @@ form input[type=submit]{
 
 /*Estilização da seção de comentários feitos pelos usuários na página Forms*/
 .comment_users_forms{
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 7rem auto 0 auto;
     max-width: 90%;
     height: 35rem;
@@ -266,7 +267,7 @@ form input[type=submit]{
 }  
 
 .FooterComment_Forms{
-    border: 1px solid black;
+    border: 0px solid black;
     height: 7rem;
 }
 
@@ -275,7 +276,7 @@ form input[type=submit]{
 .input_PagForms{
     display: flex;
     flex-direction: column;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 50px auto;
     border: 1px solid #0000003b;
     border-radius: 50px;
     box-shadow: 0 0 5px #00000033;
@@ -295,7 +296,7 @@ form input[type=submit]{
 .text_Input{
     margin-top: 10px;
     font-family: DM Sans, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     color: #D9D9D9;
 }
@@ -307,3 +308,74 @@ form input[type=submit]{
     top: 8.5rem;
     left: 39rem;
 }
+
+
+/*Estilização da seção de Populares na página Forms*/
+.pop_PagForms{
+    background-color: #DFC8FE;
+    border-radius: 50px;
+    box-shadow: 0 0 3px #00000033;
+    /* width: 290px; */
+    /*height: 400px; */
+    padding: 30px;
+}
+
+.title_pop{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    
+}
+
+
+.text_Pop, .coment_pop{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.coment_pop{
+    color: #000;
+    
+}
+
+.text_Pop{
+    color: #0A0430;
+
+}
+
+.group_pop{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.all_pop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.pop_section{
+    max-width: 90%;
+    margin: 0 auto;
+
+
+}
+.heading_pop{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+.span_pop{
+    font-style: italic;
+    font-family: DM Serif Display, sans-serif;
+    color: #6f24e9;
+    font-weight: 399.91;
+    
+}
+
