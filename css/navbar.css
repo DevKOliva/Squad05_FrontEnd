@@ -55,7 +55,7 @@
 .select_videos,
 .select_forum,
 .select_pais_profs {
-  background-image: url("/img/seleção.png");
+  background-image: url("/img/images_navbar/seleção.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
