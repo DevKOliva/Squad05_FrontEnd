@@ -328,6 +328,10 @@ body{
         margin-top: 1rem;
     }
 
+    .videos_educativos{
+        margin: 4rem auto 0 auto;
+    }
+
     .moldura{
         width: 16rem;
     }
@@ -342,5 +346,72 @@ body{
 
     .iconStar2{
         top: 13rem;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .iconCircle1{
+        top: 13rem;
+    }
+
+    .iconCircle2{
+        top: 22rem;
+    }
+
+    .iconStar1{
+        top: 15rem;
+    }
+
+    .imgs_banner {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .img_resp{
+        width: 7.5rem;
+        margin-top: 1rem;
+    }
+
+    .videos_educativos{
+        margin: 6rem auto 0 auto;
+    }
+
+    .iconPlus1{
+        position: absolute;
+        right: 5rem;
+        top: 40rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .videos_educativos{
+        margin: 4rem auto 0 auto;
+    }
+
+    .moldura{
+        width: 14rem;
+        height: 180px;
+    }
+
+    .label_moldura{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .title_Hero{
+        max-width: 35rem;
+    }
+
+    .iconStar1{
+        top: 16.4rem;
+    }
+
+    .iconStar2{
+        top: 16rem;
+    }
+
+    .iconCircle1{
+        top: 10rem;
     }
 }
