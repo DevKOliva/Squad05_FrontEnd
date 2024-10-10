@@ -200,7 +200,6 @@ body{
 }
 
 .title_Nossa_Equipe{
-    border: 1px solid black;
     margin: 0 auto 40px auto;
     max-width: 60rem;
     text-align: center;
@@ -228,7 +227,6 @@ body{
     height: auto;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
 }
 
 .profile_Equipe{
@@ -236,7 +234,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     width: 19rem;
     height:auto;
 }
@@ -256,108 +253,206 @@ body{
     font-weight: 300;
     color: #FFFDF2;
 }
+
 .iconStarYB_profissionais{
     position: absolute;
     width: 233px;
     height: 229px;
     top:78rem;
 }
+
 .iconStarGray_profissionais{
     position: absolute;
     top: 85rem;
     right: 1rem
 }
-/*Estilização da seção Leia Artigos do site*/
-.Leia_artirgos_Home{
-    padding: 2rem;
-    text-align: l;
-}
 
-.title_LeiaArtigos_Home{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #000
-}
-
-.title_LeiaArtigos_Home .destaque{
-    color: #6A5ACD;
-    font-style:italic;
-}
-
-.grupo_LeiaArtigos_Home{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap:wrap;
-}
-.subtitle_Artigos{
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-}
-/*Estilização da seção Plataforma de Videos do site*/
-.Plataforma_Videos {
-    background-color:#FFC62F;
-    padding: 80px;
-    border-radius: 40px;
-    text-align: center;
-    width: 80%;
-    max-width: 700px;
-    margin: auto;
-}
-.title_PlataformaVideos{
-    color:#333;
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-
-}
-.highlight{
-    color:#9147eb;
-    font-weight: bold;
-}
-.Subtitle_PlataformaVideos{
-    font-size: 1rem;
-    color:#333;
-    margin-bottom: 30px;
-}
-.btn{
-    background-color: #9147eb;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    display: inline-block
-}
-.btn:hover {
-    background-color: #762bcc;
-}
-/*Estilização da seção Materiais de Apoio do site*/
+/*Estilização da seção Artigos do site e Materias de Apoio para Pais&Profs*/
+.Leia_artigos_Home, 
 .Materiais_Apoio_Home{
-    padding: 2rem;
+    width: 90%;
+    margin: 20px auto;
     text-align: l;
 }
+
+.title_LeiaArtigos_Home, 
 .title_MApoio_Home{
-    font-size: 2rem;
+    padding-left: 2.5rem;
+    font-family: DM Sans, sans-serif;
+    font-size: 35px;
     font-weight: bold;
-    color: #000
+    color:#0A0430;
 }
-.title_MApoio_Home .destaque{
-    color: #6A5ACD;
+
+.title_LeiaArtigos_Home .destaque, 
+.destaque_MApoio_Home{
+    color: #6F24E9;
+    font-family: DM Serif Display, sans-serif;
+    font-weight: 400;
     font-style:italic;
 }
+
+.grupo_LeiaArtigos_Home, 
 .grupo_MApoio_Home{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap:wrap;
 }
+
+.subtitle_Artigos, 
 .subtitle_MApoio{
-    padding: 1rem;
-    font-size: 1rem;
+    max-width: 21rem;
+    padding-left: 1rem;
+    font-size: 24px;
     font-weight: bold;
-    color: #333;
+    font-family: DM Sans, sans-serif;
+    color: #000000;
 }
+
+/*Estilização da seção Plataforma de Videos do site*/
+.Plataforma_Videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFD25B;
+    padding: 80px;
+    border-radius: 40px;
+    text-align: center;
+    max-width: 70%;
+    height: 28rem;
+    margin: auto;
+}
+
+.title_PlataformaVideos, 
+.title_PlataformaJogos{
+    color:#0A0430;
+    font-family: DM Sans, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    color:#6F24E9;
+    font-family: DM Serif Display, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Subtitle_PlataformaVideos,
+.Subtitle_PlataformaJogos{
+    font-size: 1.1rem;
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    color:#0A0430;
+    margin-bottom: 30px;
+}
+
+.btn{
+    position: relative;
+    background-color: #FFD25B;
+    padding: 10px 30px;
+    width: 230px;
+    height: 50px;
+    outline-offset: none !important;
+    border: 1px solid #6F24E9;
+    border-radius: 30px;
+    display: inline-block
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.link-sem-sublinhado{
+    position: absolute;
+    left: 1.5rem;
+    top: 0.8rem;
+    text-decoration: none;
+    font-family: DM Sans, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #6F24E9;
+}
+
+.arrowRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2rem;
+    top: 0.4rem;
+    height: 35px;
+    width: 35px;
+    background-color: #6F24E9;
+    border-radius: 50%;
+}
+
+/*Estilização da seção Plataforma de jogos digitais do site*/
+.Plataforma_JogosDigitais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#E924AE;
+    padding: 80px;
+    border-radius: 40px;
+    text-align: center;
+    max-width: 70%;
+    height: 28rem;
+    margin: auto;
+}
+
+.highlight2{
+    color:#FFFDF2;
+    font-family: DM Serif Display, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.btnJogos{
+    position: relative;
+    background-color: #E924AE;
+    padding: 10px 30px;
+    width: 230px;
+    height: 50px;
+    outline-offset: none !important;
+    border: 1px solid #FFFDF2;
+    border-radius: 30px;
+    display: inline-block
+}
+
+.btnJogos:hover {
+    background-color: #ffbb00;
+    border: 1px solid #ffbb00;
+    cursor: pointer;
+}
+
+.link-sem-sublinhado2{
+    position: absolute;
+    left: 1.5rem;
+    top: 0.8rem;
+    text-decoration: none;
+    font-family: DM Sans, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFDF2;
+}
+
+.arrowRight_Jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2rem;
+    top: 0.4rem;
+    height: 35px;
+    width: 35px;
+    background-color: #FFFDF2;
+    border-radius: 50%;
+}
+
