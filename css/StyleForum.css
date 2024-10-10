@@ -1,0 +1,369 @@
+/*Fonte DM Sans usada no site*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/*Fonte DM Serif Display*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+/*Fonte Montserrat*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+}
+
+/*Seção Banner(Hero)*/
+.hero_PagForms {
+  margin: 0 auto;
+  max-width: 1250px;
+  height: 35rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero_forms_content {
+  padding-top: 5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_forms_images {
+  flex: 1;
+}
+
+/*Estilização de componentes de text e button da seção hero - esquerdo*/
+
+.title_FormsPage {
+  margin: 0 auto 0 auto;
+  width: 32rem;
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 600;
+  color: #0a0430;
+}
+
+.title_FormsPage2 {
+  font-family: DM Serif Display, sans-serif;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 500;
+  color: #0a0430;
+}
+
+.label_formsPage {
+  width: 25rem;
+  margin: 2rem 10rem 0 auto;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #0a0430;
+}
+
+.Btn_Legenda {
+  top: 2rem;
+  left: 3.6rem;
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #704eea;
+  border: none !important;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+}
+
+.icon_btn_Legenda {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+/*Estilização de imagens da seção hero - direito*/
+.hero_forms_images {
+  position: relative;
+}
+
+.img_hero_forms1 {
+  position: absolute;
+  top: 5rem;
+  right: 0.8rem;
+}
+
+.img_hero_forms2 {
+  position: absolute;
+  top: 19rem;
+  right: 19.5rem;
+}
+
+.rectangleImages_Forms {
+  position: absolute;
+  left: 11rem;
+  width: 180px;
+  height: 80px;
+  border-radius: 100px;
+  border: 15px solid #ffffff;
+  background-color: #ffc62f;
+}
+
+/*Estilização da seção de comentários feitos pelos usuários na página Forms*/
+.comment_users_forms {
+  margin: 7rem auto 0 auto;
+  max-width: 1100px;
+  height: auto;
+  row-gap: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comentario_PagForms {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000003b;
+  border-radius: 50px;
+  box-shadow: 0 0 5px #00000033;
+  height: 25rem;
+}
+
+.titleComment_Forms {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.textTitle_Comment {
+  font-size: 36px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 600;
+}
+
+.ContentComment_Forms {
+  padding-left: 3rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.UpContent_Forms {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.Group_profile_icon_forms {
+  position: relative;
+}
+
+.profileRectangleForms {
+  width: 60px;
+  height: 60px;
+  background-color: #dfc8fe;
+  border-radius: 12px;
+}
+
+.profileRectangleForms2 {
+  width: 60px;
+  height: 60px;
+  background-color: #fff3a9;
+  border-radius: 12px;
+}
+
+.icon_profile {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.Group_Text_profile {
+  padding-left: 1.5rem;
+}
+
+.text_profile1 {
+  margin-top: 10px;
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text_profile2 {
+  margin-top: -10px;
+  font-family: DM Sans, sans-serif;
+  font-size: 15px;
+  color: #d9d9d9;
+}
+
+.text_profile3 {
+  margin-top: 10px;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a0430;
+}
+
+.DownContent_Forms {
+  flex: 1;
+}
+
+.FooterComment_Forms {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3rem;
+  height: 7rem;
+}
+
+.AddComment_FooterForms {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  margin: auto 0 auto 0;
+}
+
+.Div_Footer_Comentario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.text_profile4 {
+  color: #0a0430;
+  font-family: DM Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.text_profile5 {
+  flex: 1;
+  margin: auto 0 auto 0;
+  padding-right: 3rem;
+  max-width: 25rem;
+  text-align: justify;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+}
+
+/*Estilização da seção de inserir comentário na página Forms*/
+.input_forms {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.input_PagForms {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 50px auto;
+  border: 1px solid #0000003b;
+  border-radius: 50px;
+  box-shadow: 0 0 5px #00000033;
+  color: #0a0430;
+
+  height: 15rem;
+  width: 100%;
+  padding: 40px;
+}
+
+.input_PagForms::placeholder,
+.input_PagForms {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: DM Sans, sans-serif;
+}
+
+.input_PagForms::placeholder {
+  color: #bfbfbf;
+}
+
+.form-text-area {
+  position: relative;
+}
+
+.plusForms {
+  position: absolute;
+  top: 165px;
+  left: 1015px;
+
+  cursor: pointer;
+  border: none;
+  background-color: #dfc8fe;
+  height: 43px;
+  width: 43px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_plus {
+  height: 19px;
+  width: 19px;
+}
+
+/*Estilização da seção de Populares na página Forms*/
+.pop_section {
+  max-width: 1100px;
+  margin: 8rem auto 0 auto;
+}
+
+.heading_pop {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.span_pop {
+  font-style: italic;
+  font-family: DM Serif Display, sans-serif;
+  color: #6f24e9;
+  font-weight: 399.91;
+}
+
+.pop_PagForms {
+  background-color: #dfc8fe;
+  border-radius: 50px;
+  box-shadow: 0 0 3px #00000033;
+  padding: 30px;
+}
+
+.title_pop {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.text_Pop,
+.coment_pop {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.coment_pop {
+  color: #000;
+}
+
+.text_Pop {
+  color: #0a0430;
+}
+
+.group_pop {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.all_pop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+}
