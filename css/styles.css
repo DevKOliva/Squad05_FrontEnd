@@ -1,0 +1,30 @@
+/*Corpo principal do site*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+}
+
+/*Seção Banner(Hero)*/
+.hero{
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+/*Conteúdo do hero*/
+
+/*Estilização título principal do banner*/
+.title_Hero{
+    margin: 0 auto 40px auto;
+}
+
+.title_font1{
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 500;
+    color: #0A0430;
+}

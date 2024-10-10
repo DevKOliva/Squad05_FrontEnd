@@ -256,3 +256,42 @@ body{
     font-weight: 300;
     color: #FFFDF2;
 }
+.iconStarYB_profissionais{
+    position: absolute;
+    width: 233px;
+    height: 229px;
+    top:78rem;
+}
+.iconStarGray_profissionais{
+    position: absolute;
+    top: 85rem;
+    right: 1rem
+}
+.Leia_artirgos_Home{
+    padding: 2rem;
+    text-align: l;
+}
+
+.title_LeiaArtigos_Home{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000
+}
+
+.title_LeiaArtigos_Home .destaque{
+    color: #6A5ACD;
+    font-style:italic;
+}
+
+.grupo_LeiaArtigos_Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.subtitle_Artigos{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
