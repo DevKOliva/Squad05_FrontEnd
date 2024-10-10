@@ -296,6 +296,7 @@ body{
     font-weight: bold;
     color: #333;
 }
+/*Estilização da seção Plataforma de Videos do site*/
 .Plataforma_Videos {
     background-color:#FFC62F;
     padding: 80px;
@@ -333,3 +334,30 @@ body{
 }
 .btn:hover {
     background-color: #762bcc;
+}
+/*Estilização da seção Materiais de Apoio do site*/
+.Materiais_Apoio_Home{
+    padding: 2rem;
+    text-align: l;
+}
+.title_MApoio_Home{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000
+}
+.title_MApoio_Home .destaque{
+    color: #6A5ACD;
+    font-style:italic;
+}
+.grupo_MApoio_Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.subtitle_MApoio{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
