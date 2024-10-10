@@ -11,7 +11,7 @@ main {
 .section-hero {
   margin-top: 30px;
   padding-top: 30px;
-  background-image: url("/img/decor.png");
+  background-image: url("/img/images_pais_profs/decor.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -93,14 +93,14 @@ main {
 }
 
 .section-recursos {
-  max-width: 1150px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 25px;
   margin-bottom: 110px;
 }
 
