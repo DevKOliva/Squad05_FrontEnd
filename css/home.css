@@ -1,0 +1,459 @@
+/*Fonte DM Sans usada no site*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+/*Fonte DM Serif Display*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+/*Fonte Montserrat*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Corpo principal do site*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f8fa8a;
+}
+
+/*Seção Banner(Hero)*/
+.hero_home {
+  margin: 20px auto;
+  max-width: 1250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Conteúdo do hero*/
+
+/*Estilização título principal do banner*/
+.title_Hero_home {
+  margin: 0 auto 40px auto;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.title_font1_home {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 500;
+  color: #0a0430;
+}
+
+.title_font2_home {
+  font-family: DM Serif Display, sans-serif;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 500;
+  color: #0a0430;
+}
+
+/*Estilização Legendas e icones flutuantes do banner HOME*/
+.legenda_banner_home {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: -30px auto 0 auto;
+  text-align: center;
+  color: #0a0430;
+  width: 60%;
+}
+
+.Btn_Legenda {
+  top: 2rem;
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #704eea;
+  border: none;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+}
+
+.icon_btn_Legenda {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.iconCircle1_home {
+  position: absolute;
+  top: 11rem;
+  right: 13rem;
+}
+
+.iconCircle2_home {
+  position: absolute;
+  top: 25rem;
+  left: 2rem;
+}
+
+.iconPlus1_home {
+  position: absolute;
+  right: 14rem;
+  top: 30rem;
+}
+
+.iconPlus2_home {
+  position: absolute;
+  top: 8rem;
+}
+
+.iconStar1_home {
+  position: absolute;
+  top: 15rem;
+  right: 2rem;
+}
+
+.iconStar2_home {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+
+/*Estilização da seção Nossas Ferramentas do site*/
+.Nossas_Ferramentas_Home {
+  padding-top: 2rem;
+  margin: 10rem auto;
+  max-width: 1100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_NFerramentas_Home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 25rem;
+}
+
+.title_NFerramentas1 {
+  font-family: DM Sans, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #0a0430;
+}
+
+.title_NFerramentas2 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
+  color: #6f24e9;
+}
+
+.grupo_Ferramentas_Home {
+  margin-top: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.moldura_Ferramenta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  width: 360px;
+  height: 400px;
+  background-color: #704eea;
+  border-radius: 50px;
+}
+
+.title_MFerramentas1 {
+  margin-left: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: DM Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fffdf2;
+}
+
+.title_MFerramentas2 {
+  font-family: DM Serif Display, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffc62f;
+}
+
+.subtitle_MFerramentas {
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a0430;
+}
+
+/*Estilização da seção Nossa Equipe do site*/
+.Nossa_Equipe {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 45rem;
+  background-color: #704eea;
+  margin: 20px auto;
+}
+
+.title_Nossa_Equipe {
+  margin: 0 auto 40px auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.title_font1_NEquipe {
+  font-family: DM Serif Display, sans-serif;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fffdf2;
+}
+
+.title_font2_NEquipe {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 500;
+  color: #fffdf2;
+}
+
+.Img_Equipe {
+  margin: 20px auto;
+  max-width: 1100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile_Equipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19rem;
+  height: auto;
+}
+
+.title_DescProfile1 {
+  margin-bottom: 3rem;
+  font-family: DM Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fffdf2;
+}
+
+.title_DescProfile2 {
+  margin-top: -2.6rem;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fffdf2;
+}
+
+.iconStarYB_profissionais {
+  position: absolute;
+  width: 233px;
+  height: 229px;
+  top: 96rem;
+}
+
+.iconStarGray_profissionais {
+  position: absolute;
+  top: 105rem;
+  right: 1rem;
+}
+
+/*Estilização da seção Artigos do site e Materias de Apoio para Pais&Profs*/
+.Leia_artigos_Home,
+.Materiais_Apoio_Home {
+  max-width: 1100px;
+  margin: 90px auto;
+  text-align: l;
+}
+
+.title_LeiaArtigos_Home,
+.title_MApoio_Home {
+  font-family: DM Sans, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #0a0430;
+}
+
+.title_LeiaArtigos_Home .destaque,
+.destaque_MApoio_Home {
+  color: #6f24e9;
+  font-family: DM Serif Display, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.grupo_LeiaArtigos_Home,
+.grupo_MApoio_Home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subtitle_Artigos,
+.subtitle_MApoio {
+  max-width: 21rem;
+  padding-left: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: DM Sans, sans-serif;
+  color: #000000;
+}
+
+/*Estilização da seção Plataforma de Videos do site*/
+.Plataforma_Videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd25b;
+  padding: 80px;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 1100px;
+  height: 28rem;
+  margin: auto;
+}
+
+.title_PlataformaVideos,
+.title_PlataformaJogos {
+  color: #0a0430;
+  font-family: DM Sans, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #6f24e9;
+  font-family: DM Serif Display, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.Subtitle_PlataformaVideos,
+.Subtitle_PlataformaJogos {
+  font-size: 1.1rem;
+  font-family: DM Sans, sans-serif;
+  font-weight: 500;
+  color: #0a0430;
+  margin-bottom: 30px;
+}
+
+.btn {
+  position: relative;
+  background-color: #ffd25b;
+  padding: 10px 30px;
+  width: 230px;
+  height: 50px;
+  outline-offset: none !important;
+  border: 1px solid #6f24e9;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.link-sem-sublinhado {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.8rem;
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #6f24e9;
+}
+
+.arrowRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 2rem;
+  top: 0.4rem;
+  height: 35px;
+  width: 35px;
+  background-color: #6f24e9;
+  border-radius: 50%;
+}
+
+/*Estilização da seção Plataforma de jogos digitais do site*/
+.Plataforma_JogosDigitais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e924ae;
+  padding: 80px;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 1100px;
+  height: 28rem;
+  margin: auto;
+}
+
+.highlight2 {
+  color: #fffdf2;
+  font-family: DM Serif Display, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.btnJogos {
+  position: relative;
+  background-color: #e924ae;
+  padding: 10px 30px;
+  width: 230px;
+  height: 50px;
+  outline-offset: none !important;
+  border: 1px solid #fffdf2;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.btnJogos:hover {
+  background-color: #ffbb00;
+  border: 1px solid #ffbb00;
+  cursor: pointer;
+}
+
+.link-sem-sublinhado2 {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.8rem;
+  text-decoration: none;
+  font-family: DM Sans, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #fffdf2;
+}
+
+.arrowRight_Jogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 2rem;
+  top: 0.4rem;
+  height: 35px;
+  width: 35px;
+  background-color: #fffdf2;
+  border-radius: 50%;
+}

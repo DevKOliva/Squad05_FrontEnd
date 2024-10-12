@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("/img/images_footer/bg_footer.png");
+  min-height: 603px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+  display: grid;
+  align-items: end;
+  color: #f5f5f5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  row-gap: 64px;
+}
+
+.logo-col {
+  margin-right: 127px;
+}
+
+.contato-col {
+  margin-right: 90px;
+}
+
+.footer-logo {
+  height: 55px;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #dddddd;
+}
+
+ul {
+  list-style: none;
+}
+
+.contatos {
+  margin-bottom: 24px;
+}
+
+.address {
+  margin-top: 32px;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.information-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
