@@ -10,6 +10,7 @@
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 3rem;
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
 }
@@ -77,5 +78,5 @@
 }
 
 .select_pais_profs {
-  left: 312px;
+  left: 293px;
 }

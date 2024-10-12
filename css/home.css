@@ -102,7 +102,7 @@ body {
 
 .iconPlus2_home {
   position: absolute;
-  top: 4rem;
+  top: 8rem;
 }
 
 .iconStar1_home {
@@ -261,12 +261,12 @@ body {
   position: absolute;
   width: 233px;
   height: 229px;
-  top: 83rem;
+  top: 96rem;
 }
 
 .iconStarGray_profissionais {
   position: absolute;
-  top: 85rem;
+  top: 105rem;
   right: 1rem;
 }
 

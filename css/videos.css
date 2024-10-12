@@ -91,7 +91,8 @@ body {
 
 .iconPlus2 {
   position: absolute;
-  top: 4rem;
+  left: 3rem;
+  top: 6rem;
 }
 
 .iconStar1 {
@@ -144,6 +145,7 @@ body {
 /*Estilização da seção vídeos educativos do site*/
 .videos_educativos {
   margin: 0 auto;
+  margin-bottom: 5rem;
   max-width: 1100px;
   height: auto;
   display: flex;
@@ -156,11 +158,40 @@ body {
   align-items: flex-start;
 }
 
-.title_videos1 {
+.title_videosEducativos,
+.title_videos_Tutoriais,
+.title_videosHistorias,
+.title_videosInterativos{
   font-family: DM Sans, sans-serif;
   font-size: 36px;
   font-weight: 600;
   color: #0a0430;
+}
+
+.title_videosEducativos::after,
+.title_videos_Tutoriais::after,
+.title_videosHistorias::after,
+.title_videosInterativos::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 8px;
+}
+
+.title_videosEducativos::after{
+  background-color: #f19436;
+}
+
+.title_videos_Tutoriais::after{
+  background-color:#6f24e9;
+}
+
+.title_videosHistorias::after{
+  background-color: #FFC62F;
+}
+
+.title_videosInterativos::after{
+  background-color: #e924ae;
 }
 
 .title_videos2 {
@@ -169,13 +200,6 @@ body {
   font-weight: 500;
   font-style: italic;
   color: #f19436;
-}
-
-.rectangle_VEducativos {
-  width: 60px;
-  height: 8px;
-  margin-top: -30px;
-  background-color: #f19436;
 }
 
 .grupo_videos {
@@ -210,6 +234,7 @@ body {
 /*Estilização da seção vídeos tutoriais do site*/
 .videos_tutoriais {
   margin: 0 auto;
+  margin-bottom: 5rem;
   max-width: 1100px;
   height: auto;
   display: flex;
@@ -234,6 +259,7 @@ body {
 /*Estilização da seção histórias para dormir do site*/
 .historias_dormir {
   margin: 0 auto;
+  margin-bottom: 5rem;
   max-width: 1100px;
   height: auto;
   display: flex;

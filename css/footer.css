@@ -10,7 +10,7 @@
   min-height: 603px;
   background-size: cover;
   background-repeat: no-repeat;
-
+  margin-top: 3rem;
   display: grid;
   align-items: end;
   color: #f5f5f5;
