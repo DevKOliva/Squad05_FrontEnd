@@ -24,8 +24,5 @@ Este projeto tem como finalidade o desenvolvimento de um website funcional e ino
 
 Front-end: HTML5 e CSS3
 
-## Link do repositório 
-- (https://github.com/DevKOliva/Squad05_FrontEnd) 
-
 ## Link do site cadastrado no Vercel
 - (https://squad05-front-end.vercel.app/)
